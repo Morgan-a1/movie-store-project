@@ -1,0 +1,24 @@
+{
+  "name": "movie-store-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node ./seeder/seed --mode refresh",
+    "seed:clear": "node ./seeder/seed --mode clear"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "auto-bind": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.10",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
