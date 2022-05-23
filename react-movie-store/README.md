@@ -1,8 +1,7 @@
 # React Movie Store
-#### An e-commerse Demo application.
-#### Used as an excercise in writing an app in React and communicate with servers and databases.
-#### This app communicates with port 8000
-#### and the movie-store-api app is currently used as server.
+#### An e-commerse Demo application written in React.
+
+#### The movie-store-api app is currently used as server.
 #
 ## Installation:
 - Download, install and run movie-store-api. Its README file guides you through.
